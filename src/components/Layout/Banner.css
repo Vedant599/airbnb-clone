@@ -1,0 +1,38 @@
+.banner {
+  max-height: fit-content;
+  position: relative;
+  background: url('https://www.scandinaviastandard.com/wp-content/uploads/2019/11/Airbnb-Copenhagen-The-Best-Copenhagen-Airbnbs-in-Every-Neighborhood-Scandinavia-Standard-2.jpg')
+    center center;
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  padding: 21vh 50px 40px 50px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+}
+.banner__searchdates {
+  background-color: white !important;
+  color: #ff7779 !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
